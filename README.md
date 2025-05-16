@@ -73,4 +73,10 @@ npm run dev
 http://localhost:5173/
 ```
 
+## 📷 Preview
+
+#### 🧾 Analytics Table UI  
+![Analytics Table Preview](./table-perview.png)
+
+---
 
