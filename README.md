@@ -73,13 +73,4 @@ npm run dev
 http://localhost:5173/
 ```
 
-## 📷 Preview
 
-### 🧾 Analytics Table UI
-![Analytics Table Preview](public/previews/table-preview.png)
-
-### 🔄 Column Reordering
-![Column Drag & Drop](public/previews/drag-drop.gif)
-
-### ✅ Toggle Columns
-![Column Toggle](public/previews/column-toggle.gif)
