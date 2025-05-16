@@ -5,14 +5,14 @@ export const fetchAnalytics = createAsyncThunk(
   "analytics/fetch",
   async ({ startDate, endDate }) => {
     const res = await axios.get(
-      `http://go-dev.greedygame.com/v3/dummy/report?startDate=${startDate}&endDate=${endDate}`
+      `https://go-dev.greedygame.com/v3/dummy/report?startDate=${startDate}&endDate=${endDate}`
     );
     return res.data.data;
   }
 );
 
 export const fetchApps = createAsyncThunk("apps/fetch", async () => {
-  const res = await axios.get("http://go-dev.greedygame.com/v3/dummy/apps");
+  const res = await axios.get("https://go-dev.greedygame.com/v3/dummy/apps");
   return res.data.data;
 });
 
